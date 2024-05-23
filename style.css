@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500&display=swap');
+:root{
+    --lg-font:"Kaisei Decol", serif;
+}
+*{
+    font-family: var(--lg-font); 
+    font-weight: bolder;
+}
+
+.title h5::before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 100%;
+    background-color: green;
+    left: -15px; 
+    
+}
+.btn {
+    border-radius: 100%;
+}
+.product-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-item img:hover {
+    border:2px solid green;
+    transform: scale(1.1);
+    
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+}
